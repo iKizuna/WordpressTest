@@ -1,0 +1,284 @@
+[04-Jan-2019 18:48:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2019 12:07:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/mytheme/page.php on line 25
+[05-Jan-2019 13:40:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/mytheme/page.php on line 45
+[11-Jan-2019 12:25:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/index.php on line 20
+[11-Jan-2019 12:26:14 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/mytheme/index.php on line 5
+[11-Jan-2019 12:27:03 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/mytheme/index.php on line 5
+[11-Jan-2019 12:35:12 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/mytheme/index.php on line 18
+[04-Feb-2019 19:22:24 UTC] PHP Parse error:  syntax error, unexpected '/' in /app/public/wp-content/themes/mytheme/front-page.php on line 67
+[04-Feb-2019 19:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:45:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:46:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:46:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:47:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:48:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:49:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:49:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/index.php(2): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:49:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:52:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:52:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:24
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/page.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 24
+[04-Feb-2019 19:55:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting end of file in /app/public/wp-content/themes/mytheme/header.php on line 25
+[04-Feb-2019 19:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:30
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/single.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 30
+[04-Feb-2019 19:56:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:30
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/single.php(3): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 30
+[04-Feb-2019 19:56:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:30
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 30
+[04-Feb-2019 19:57:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_post_id() in /app/public/wp-content/themes/mytheme/header.php:30
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /app/public/wp-content/themes/mytheme/front-page.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/mytheme/header.php on line 30
