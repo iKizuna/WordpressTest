@@ -287,3 +287,4 @@ Stack trace:
 [12-Feb-2019 16:48:01 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/mytheme/functions.php on line 23
 [12-Feb-2019 17:00:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/mu-plugins/university-post-types.php on line 9
 [12-Feb-2019 17:00:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/mu-plugins/university-post-types.php on line 9
+[16-Feb-2019 14:52:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/mytheme/front-page.php on line 28
