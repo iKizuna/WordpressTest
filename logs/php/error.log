@@ -288,3 +288,186 @@ Stack trace:
 [12-Feb-2019 17:00:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/mu-plugins/university-post-types.php on line 9
 [12-Feb-2019 17:00:34 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/mu-plugins/university-post-types.php on line 9
 [16-Feb-2019 14:52:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/mytheme/front-page.php on line 28
+[17-Feb-2019 11:40:00 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:42:49 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:43:11 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:43:12 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:43:27 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:43:39 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:49:10 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:50:31 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:50:36 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:50:43 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:50:47 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:53:34 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:54:10 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:54:10 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:54:14 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:54:14 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:58:25 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:58:25 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:58:29 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:58:29 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:32
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 11:58:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in /app/public/wp-content/themes/mytheme/front-page.php on line 32 and at least 1 expected in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:20
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): get_field()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 20
+[17-Feb-2019 11:58:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in /app/public/wp-content/themes/mytheme/front-page.php on line 32 and at least 1 expected in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php:20
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(32): get_field()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 20
+[17-Feb-2019 12:06:26 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 12:06:26 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:33
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(33): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 33
+[17-Feb-2019 12:25:29 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 12:25:29 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:33
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(33): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 33
+[17-Feb-2019 12:26:44 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:33
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(33): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 33
+[17-Feb-2019 12:27:37 UTC] PHP Warning:  Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/front-page.php on line 32
+[17-Feb-2019 12:27:37 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (18/02/2019) at position 0 (1): Unexpected character in /app/public/wp-content/themes/mytheme/front-page.php:33
+Stack trace:
+#0 /app/public/wp-content/themes/mytheme/front-page.php(33): DateTime->__construct('18/02/2019')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 33

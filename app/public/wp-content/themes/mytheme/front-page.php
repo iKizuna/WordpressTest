@@ -17,18 +17,36 @@
 
         
         <?php 
-
+          $today = date('Ymd');
           $homepageEvents = new WP_Query(array(
-            'posts_per_page' => 2,
-            'post_type' => 'event'
+            'posts_per_page' => -1,
+            'post_type' => 'event',
+            'orderby' => 'meta_value_num', //Thanks for 'orderby', 'meta_key' and 'order' our events will be sort by the newest comming event
+            'meta_key' => 'event_date',
+            'order' => 'ASC',
+            'meta_query' => array( //This query delete a past events
+            	array(
+            		'key' => 'event_date',
+            		'compare' => '>=',
+            		'value' => $today,
+            		'type' => 'numeric'
+            	)
+            )
           ));
           //This function shows our custom Events
           while($homepageEvents->have_posts()){
             $homepageEvents->the_post(); ?>
             <div class="event-summary">
               <a class="event-summary__date t-center" href="#">
-                <span class="event-summary__month">Apr</span>
-                <span class="event-summary__day">02</span>  
+                <span class="event-summary__month"><?php 
+                // This part of code using custom fields and DataTime() to create a date format adapted to our needs
+            	  // Get RAW date
+				  $the_event_date = get_field( 'event_date', false, false );
+				  // THEN create object
+				  $the_event_date = new DateTime( $the_event_date );
+				  echo $the_event_date->format( 'M' );
+                 ?></span>
+                <span class="event-summary__day"><?php echo $the_event_date->format( 'd' ); ?></span>  
               </a>
               <div class="event-summary__content">
                 <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>

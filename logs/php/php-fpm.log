@@ -50,3 +50,11 @@
 [16-Feb-2019 14:31:58] NOTICE: exiting, bye-bye!
 [16-Feb-2019 14:32:07] NOTICE: fpm is running, pid 55
 [16-Feb-2019 14:32:07] NOTICE: ready to handle connections
+[16-Feb-2019 19:44:05] NOTICE: Terminating ...
+[16-Feb-2019 19:44:05] NOTICE: exiting, bye-bye!
+[16-Feb-2019 22:34:44] NOTICE: fpm is running, pid 55
+[16-Feb-2019 22:34:45] NOTICE: ready to handle connections
+[16-Feb-2019 22:42:38] NOTICE: Terminating ...
+[16-Feb-2019 22:42:38] NOTICE: exiting, bye-bye!
+[17-Feb-2019 11:15:54] NOTICE: fpm is running, pid 60
+[17-Feb-2019 11:15:54] NOTICE: ready to handle connections
