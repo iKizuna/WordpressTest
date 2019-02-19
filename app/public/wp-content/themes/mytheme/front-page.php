@@ -19,7 +19,7 @@
         <?php 
           $today = date('Ymd');
           $homepageEvents = new WP_Query(array(
-            'posts_per_page' => -1,
+            'posts_per_page' => 2,
             'post_type' => 'event',
             'orderby' => 'meta_value_num', //Thanks for 'orderby', 'meta_key' and 'order' our events will be sort by the newest comming event
             'meta_key' => 'event_date',
@@ -37,7 +37,7 @@
           while($homepageEvents->have_posts()){
             $homepageEvents->the_post(); ?>
             <div class="event-summary">
-              <a class="event-summary__date t-center" href="#">
+              <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
                 <span class="event-summary__month"><?php 
                 // This part of code using custom fields and DataTime() to create a date format adapted to our needs
             	  // Get RAW date

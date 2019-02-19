@@ -20,9 +20,16 @@ get_header();
       the_post(); ?>
 
       <div class="event-summary">
-              <a class="event-summary__date t-center" href="#">
-                <span class="event-summary__month">Apr</span>
-                <span class="event-summary__day">02</span>  
+              <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
+                <span class="event-summary__month"><?php 
+                  // This part of code using custom fields and DataTime() to create a date format adapted to our needs
+                  // Get RAW date
+                  $the_event_date = get_field( 'event_date', false, false );
+                  // THEN create object
+                  $the_event_date = new DateTime( $the_event_date );
+                  echo $the_event_date->format( 'M' );
+                ?></span>
+                <span class="event-summary__day"><?php echo $the_event_date->format( 'd' ); ?></span>  
               </a>
               <div class="event-summary__content">
                 <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
@@ -35,6 +42,10 @@ get_header();
     //This function adds a links to subpage if we will have too much posts on one site
     echo paginate_links();
   ?>
+
+  <hr class="section-break">
+
+  <p>Looking for a recap of past events? <a href="<?php echo site_url('/past-events') ?>">Check out our past events archive.</a></p>
 </div>
 
 <?php

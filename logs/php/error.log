@@ -471,3 +471,9 @@ Stack trace:
 #3 /app/public/index.php(17): require('/app/public/wp-...')
 #4 {main}
   thrown in /app/public/wp-content/themes/mytheme/front-page.php on line 33
+[19-Feb-2019 10:33:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[19-Feb-2019 10:33:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[19-Feb-2019 10:33:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[19-Feb-2019 10:33:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[19-Feb-2019 10:43:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/mytheme/functions.php on line 28
+[19-Feb-2019 11:14:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/mytheme/page-past-events.php on line 20
