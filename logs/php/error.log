@@ -477,3 +477,11 @@ Stack trace:
 [19-Feb-2019 10:33:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
 [19-Feb-2019 10:43:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/mytheme/functions.php on line 28
 [19-Feb-2019 11:14:40 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/mytheme/page-past-events.php on line 20
+[19-Feb-2019 20:51:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 47
+[19-Feb-2019 20:53:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 48
+[19-Feb-2019 20:53:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 47
+[19-Feb-2019 20:53:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 46
+[19-Feb-2019 20:53:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 46
+[19-Feb-2019 21:02:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 45
+[19-Feb-2019 21:05:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 45
+[19-Feb-2019 21:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 47

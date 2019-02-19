@@ -1,5 +1,6 @@
 <?php
 function university_post_types(){
+	//Event Post Type
 	register_post_type('event', array(
 		'supports' => array('title', 'editor', 'excerpt'),
 		'rewrite' => array('slug' => 'events'),
@@ -13,6 +14,22 @@ function university_post_types(){
 			'singular_name' => 'Event'
 		 ),
 		'menu_icon' => 'dashicons-calendar'
+	));
+
+	//Program Post Type
+	register_post_type('program', array(
+		'supports' => array('title', 'editor'),
+		'rewrite' => array('slug' => 'programs'),
+		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of events
+		'public' => true, //it makes function visible in admin board 
+		'labels' => array(
+			'name' => 'Programs',
+			'add_new_item' => 'Add New Program',
+			'edit_item' => "Edit Program",
+			'all_items' => "All Programs",
+			'singular_name' => 'Program'
+		 ),
+		'menu_icon' => 'dashicons-awards'
 	));
 }
 
