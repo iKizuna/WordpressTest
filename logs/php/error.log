@@ -485,3 +485,4 @@ Stack trace:
 [19-Feb-2019 21:02:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 45
 [19-Feb-2019 21:05:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 45
 [19-Feb-2019 21:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 47
+[20-Feb-2019 14:23:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 50
