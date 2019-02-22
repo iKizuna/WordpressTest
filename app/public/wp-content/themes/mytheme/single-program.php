@@ -24,6 +24,35 @@
   	<div class="generic-content"><?php the_content(); ?></div>
 
     <?php 
+          //Professors Custom Vield
+          $relatedProfessors = new WP_Query(array(
+            'posts_per_page' => -1,
+            'post_type' => 'professor',
+            'orderby' => 'title', //Thanks for 'orderby', 'meta_key' and 'order' our data will be sort by the newest comming event
+            'order' => 'ASC',
+            'meta_query' => array( //This query delete a past data
+              array(
+                'key' => 'related_programs',
+                'compare' => 'LIKE',
+                'value' => '"' . get_the_ID() . '"'
+              )   
+            )
+          ));
+
+          if($relatedProfessors->have_posts())
+          {
+            echo '<hr class="section-break">';
+            echo '<h2 class="headline headline--medium">'. get_the_title() . ' Professors</h2>';
+            //This function shows our custom Datas
+            while($relatedProfessors->have_posts()){
+              $relatedProfessors->the_post(); ?>
+              <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+            <?php }
+          }
+
+          wp_reset_postdata(); // This function resets the global ID of site to makes work the get_the_ID() function
+
+          //Projects Custom Vield
           $today = date('Ymd');
           $homepageEvents = new WP_Query(array(
             'posts_per_page' => 2,
