@@ -7,6 +7,13 @@ function university_files() {
   wp_enqueue_style('university_main_styles', get_stylesheet_uri());
 }
 
+//A function for printing a variables specifications
+function vd($var) {
+    echo "<pre>";
+    print_r($var);
+    echo "</pre>";
+}
+
 //This function automatically changing website title tag
 function university_features(){
 	register_nav_menu('headerMenuLocation', 'Header Menu Location');
@@ -14,8 +21,9 @@ function university_features(){
 	register_nav_menu('footerLocationTwo', 'Footer Location Two');
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails'); //its enabled a featured images for blog posts
-	add_image_size('professorLandscape', 400, 260, true); //function to customize the images size
+	add_image_size('professorLandscape', 400, 260, true); //function to add a new images size
 	add_image_size('professorPortrait', 480, 650, true);
+	add_image_size('pageBanner', 1500, 350, true);
 }
 
 add_action('wp_enqueue_scripts', 'university_files');
