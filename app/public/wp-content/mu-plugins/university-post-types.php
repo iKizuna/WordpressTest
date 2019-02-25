@@ -34,7 +34,7 @@ function university_post_types(){
 
 	//Professor Post Type
 	register_post_type('professor', array(
-		'supports' => array('title', 'editor'),
+		'supports' => array('title', 'editor', 'thumbnail'),
 		'public' => true, //it makes function visible in admin board 
 		'labels' => array(
 			'name' => 'Professors',

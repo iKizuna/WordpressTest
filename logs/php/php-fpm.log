@@ -74,3 +74,7 @@
 [20-Feb-2019 23:16:20] NOTICE: exiting, bye-bye!
 [22-Feb-2019 10:10:17] NOTICE: fpm is running, pid 60
 [22-Feb-2019 10:10:17] NOTICE: ready to handle connections
+[22-Feb-2019 22:40:31] NOTICE: Terminating ...
+[22-Feb-2019 22:40:31] NOTICE: exiting, bye-bye!
+[25-Feb-2019 10:17:20] NOTICE: fpm is running, pid 60
+[25-Feb-2019 10:17:20] NOTICE: ready to handle connections
