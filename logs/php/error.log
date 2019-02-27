@@ -487,3 +487,20 @@ Stack trace:
 [19-Feb-2019 21:09:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/single-event.php on line 47
 [20-Feb-2019 14:23:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 50
 [22-Feb-2019 16:21:28 UTC] PHP Parse error:  syntax error, unexpected 'get_the_title' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 44
+[27-Feb-2019 14:49:40 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:49:40 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:49:42 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/mytheme/page.php on line 9
+[27-Feb-2019 14:54:17 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:54:17 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:54:24 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:54:24 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:55:54 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:55:54 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 19
+[27-Feb-2019 14:56:27 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:56:27 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:56:59 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:56:59 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:57:02 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:57:02 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:59:14 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[27-Feb-2019 14:59:14 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20

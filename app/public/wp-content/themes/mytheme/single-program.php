@@ -3,16 +3,8 @@
   get_header();
 
   while(have_posts()) {
-    the_post(); ?>
-    <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>);"></div>
-    <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title"><?php the_title(); ?></h1>
-      <div class="page-banner__intro">
-        <p>DONT FORGET TO REPLACE ME LATER</p>
-      </div>
-    </div>  
-  </div>
+    the_post(); 
+    pageBanner(); ?>
 
   <div class="container container--narrow page-section">
 
@@ -90,31 +82,9 @@
             echo '<h2 class="headline headline--medium">Upcoming ' . get_the_title() . ' Events</h2>';
             //This function shows our custom Datas
             while($homepageEvents->have_posts()){
-              $homepageEvents->the_post(); ?>
-              <div class="event-summary">
-                <a class="event-summary__date t-center" href="<?php the_permalink(); ?>">
-                  <span class="event-summary__month"><?php 
-                  // This part of code using custom fields and DataTime() to create a date format adapted to our needs
-                  // Get RAW date
-                  $the_event_date = get_field( 'event_date', false, false );
-                  // THEN create object
-                  $the_event_date = new DateTime( $the_event_date );
-                  echo $the_event_date->format( 'M' );
-                   ?></span>
-                  <span class="event-summary__day"><?php echo $the_event_date->format( 'd' ); ?></span>  
-                </a>
-                <div class="event-summary__content">
-                  <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-                  <p><?php 
-                  //Function to displaying the contents of datas
-                  if(has_excerpt()){
-                    echo get_the_excerpt();
-                  }else {
-                    echo wp_trim_words(get_the_content(), 18);
-                  } ?> <a href="<?php the_permalink(); ?>" class="nu gray">Read more</a></p>
-                </div>
-              </div>
-            <?php }
+              $homepageEvents->the_post(); 
+              get_template_part('template-parts/content-event');
+            }
           }
     ?>
 
