@@ -1,5 +1,20 @@
 <?php
 function university_post_types(){
+	//Campus Post Type
+	register_post_type('campus', array(
+		'supports' => array('title', 'editor', 'excerpt'),
+		'rewrite' => array('slug' => 'campuses'),
+		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of campuses
+		'public' => true, //it makes function visible in admin board 
+		'labels' => array(
+			'name' => 'Campuses',
+			'add_new_item' => 'Add New Campus',
+			'edit_item' => "Edit Campus",
+			'all_items' => "All Campuses",
+			'singular_name' => 'Campus'
+		 ),
+		'menu_icon' => 'dashicons-location-alt'
+	));
 	//Event Post Type
 	register_post_type('event', array(
 		'supports' => array('title', 'editor', 'excerpt'),

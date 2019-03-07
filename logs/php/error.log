@@ -504,3 +504,14 @@ Stack trace:
 [27-Feb-2019 14:57:02 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20
 [27-Feb-2019 14:59:14 UTC] PHP Warning:  Use of undefined constant args - assumed 'args' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/mytheme/functions.php on line 20
 [27-Feb-2019 14:59:14 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/mytheme/functions.php on line 20
+[06-Mar-2019 15:45:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/archive-campus.php on line 31
+[06-Mar-2019 15:46:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/archive-campus.php on line 30
+[06-Mar-2019 15:47:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/mytheme/archive-campus.php on line 34
+[06-Mar-2019 16:35:31 UTC] PHP Warning:  Illegal string offset 'address' in /app/public/wp-content/themes/mytheme/single-campus.php on line 26
+[06-Mar-2019 16:36:49 UTC] PHP Warning:  Illegal string offset 'address' in /app/public/wp-content/themes/mytheme/single-campus.php on line 26
+[06-Mar-2019 16:54:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/mytheme/single-program.php on line 94
+[06-Mar-2019 16:55:27 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/mytheme/single-program.php on line 94
+[06-Mar-2019 16:57:31 UTC] PHP Parse error:  syntax error, unexpected '.' in /app/public/wp-content/themes/mytheme/single-program.php on line 94
+[06-Mar-2019 17:02:40 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 97
+[06-Mar-2019 17:03:28 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 97
+[06-Mar-2019 17:04:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 102

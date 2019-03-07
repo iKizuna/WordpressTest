@@ -27,9 +27,10 @@ function pageBanner($args = NULL) { //NULL is used to make argue $args optional
 	</div>
 	<?php
 }
-
+//There we adding outside scripts
 function university_files() {
-  wp_enqueue_script('main-university-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, 1.0, true);
+  wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyARo67NQNutt2nGqLN0Cc9XacJea5WRFT0', NULL, '1.0', true); //Google Map
+  wp_enqueue_script('main-university-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, '1.0', true);
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
   wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
   wp_enqueue_style('university_main_styles', get_stylesheet_uri());
@@ -57,15 +58,21 @@ function university_features(){
 add_action('wp_enqueue_scripts', 'university_files');
 add_action('after_setup_theme','university_features');
 
-// Function to separate past and future Events
+//Function to customise our queries
 function university_adjust_queries($query){
+	//Campuses
+	if(!is_admin() AND is_post_type_archive('campus') AND $query->is_main_query())
+	{
+		$query->set('posts_per_page', -1);
+	}
+	//Programs
 	if(!is_admin() AND is_post_type_archive('program') AND $query->is_main_query())
 	{
 		$query->set('orderby', 'title');
 		$query->set('order', 'ASC');
-		$query->set('post_per_page', -1);
+		$query->set('posts_per_page', -1);
 	}
-
+	// Function to separate past and future Events
 	if(!is_admin() AND is_post_type_archive('event') AND $query->is_main_query())
 	{
 		$today = date('Ymd');
@@ -84,4 +91,12 @@ function university_adjust_queries($query){
 	}
 }
 add_action('pre_get_posts','university_adjust_queries');
+
+//A function with API key for Google Map projects
+function googleMapKey($api){
+	$api['key'] = 'AIzaSyARo67NQNutt2nGqLN0Cc9XacJea5WRFT0';
+	return $api;
+}
+
+add_filter('acf/fields/google_map/api', 'googleMapKey');
 ?>
