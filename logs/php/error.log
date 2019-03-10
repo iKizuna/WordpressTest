@@ -515,3 +515,4 @@ Stack trace:
 [06-Mar-2019 17:02:40 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 97
 [06-Mar-2019 17:03:28 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 97
 [06-Mar-2019 17:04:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 102
+[10-Mar-2019 13:57:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/mytheme/functions.php on line 38
