@@ -1,5 +1,17 @@
 <?php
 
+//Includes
+require get_theme_file_path('/inc/search-route.php'); //Custom REST API for search
+
+//Function to create a new REST API record
+function website_custom_rest(){
+	register_rest_field('post', 'authorName', array(
+		'get_callback' => function(){return get_the_author();}
+	));
+}
+
+add_action('rest_api_init', 'website_custom_rest');
+
 //The template of page banner
 function pageBanner($args = NULL) { //NULL is used to make argue $args optional
 	if(!$args['title']){

@@ -516,3 +516,97 @@ Stack trace:
 [06-Mar-2019 17:03:28 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 97
 [06-Mar-2019 17:04:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/mytheme/single-program.php on line 102
 [10-Mar-2019 13:57:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/mytheme/functions.php on line 38
+[11-Mar-2019 21:56:53 UTC] PHP Parse error:  syntax error, unexpected 'website_cstom_rest' (T_STRING) in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[11-Mar-2019 21:57:02 UTC] PHP Parse error:  syntax error, unexpected 'website_cstom_rest' (T_STRING) in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[12-Mar-2019 15:16:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_patch() in /app/public/wp-content/themes/mytheme/functions.php:3
+Stack trace:
+#0 /app/public/wp-settings.php(479): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/mytheme/functions.php on line 3
+[12-Mar-2019 15:25:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_patch() in /app/public/wp-content/themes/mytheme/functions.php:4
+Stack trace:
+#0 /app/public/wp-settings.php(479): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[12-Mar-2019 15:25:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_patch() in /app/public/wp-content/themes/mytheme/functions.php:4
+Stack trace:
+#0 /app/public/wp-settings.php(479): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[12-Mar-2019 15:25:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_patch() in /app/public/wp-content/themes/mytheme/functions.php:4
+Stack trace:
+#0 /app/public/wp-settings.php(479): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[12-Mar-2019 15:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_patch() in /app/public/wp-content/themes/mytheme/functions.php:4
+Stack trace:
+#0 /app/public/wp-settings.php(479): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/mytheme/functions.php on line 4
+[12-Mar-2019 15:27:17 UTC] PHP Parse error:  syntax error, unexpected 'universityRegisterSearch' (T_STRING) in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 5
+[12-Mar-2019 19:03:00 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 15
+[12-Mar-2019 19:05:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitie_text_field() in /app/public/wp-content/themes/mytheme/inc/search-route.php:15
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 15
+[12-Mar-2019 19:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitie_text_field() in /app/public/wp-content/themes/mytheme/inc/search-route.php:15
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): universitySearchResults(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/university/v1/...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 15
+[13-Mar-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ''day'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 56
+[13-Mar-2019 18:02:24 UTC] PHP Parse error:  syntax error, unexpected ''image'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 101
+[14-Mar-2019 12:05:13 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 89
+[14-Mar-2019 12:06:19 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 89
+[14-Mar-2019 12:08:20 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/mytheme/inc/search-route.php on line 89
+[14-Mar-2019 12:19:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_fields() in /app/public/wp-content/themes/mytheme/single-program.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/mytheme/single-program.php on line 16
+[14-Mar-2019 12:19:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_fields() in /app/public/wp-content/themes/mytheme/single-program.php:16
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(77): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/mytheme/single-program.php on line 16

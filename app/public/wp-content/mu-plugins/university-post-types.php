@@ -33,7 +33,7 @@ function university_post_types(){
 
 	//Program Post Type
 	register_post_type('program', array(
-		'supports' => array('title', 'editor'),
+		'supports' => array('title'),
 		'rewrite' => array('slug' => 'programs'),
 		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of events
 		'public' => true, //it makes function visible in admin board 
@@ -49,6 +49,7 @@ function university_post_types(){
 
 	//Professor Post Type
 	register_post_type('professor', array(
+		'show_in_rest' => true,
 		'supports' => array('title', 'editor', 'thumbnail'),
 		'public' => true, //it makes function visible in admin board 
 		'labels' => array(
