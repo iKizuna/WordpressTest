@@ -2,6 +2,8 @@
 function university_post_types(){
 	//Campus Post Type
 	register_post_type('campus', array(
+		'capability_type' => 'campus',
+		'map_meta_cap' => true,
 		'supports' => array('title', 'editor', 'excerpt'),
 		'rewrite' => array('slug' => 'campuses'),
 		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of campuses
@@ -17,6 +19,8 @@ function university_post_types(){
 	));
 	//Event Post Type
 	register_post_type('event', array(
+		'capability_type' => 'event', //The function to register Events as 'event'. Its usefull in adding a new user type. 
+		'map_meta_cap' => true, //It requaires a capability to change the events
 		'supports' => array('title', 'editor', 'excerpt'),
 		'rewrite' => array('slug' => 'events'),
 		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of events

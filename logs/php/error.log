@@ -610,3 +610,6 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/mytheme/single-program.php on line 16
+[18-Mar-2019 14:14:07 UTC] WordPress database error Server shutdown in progress for query SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 made by do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Privacy_Policy_Content::text_change_check, current_user_can, WP_User->has_cap, map_meta_cap, get_post, WP_Post::get_instance
+[18-Mar-2019 15:25:07 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/mytheme/functions.php on line 122
+[18-Mar-2019 15:25:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/mytheme/functions.php on line 122
