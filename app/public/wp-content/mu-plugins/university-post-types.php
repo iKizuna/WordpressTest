@@ -24,7 +24,7 @@ function university_post_types(){
 		'supports' => array('title', 'editor', 'excerpt'),
 		'rewrite' => array('slug' => 'events'),
 		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of events
-		'public' => true, //it makes function visible in admin board 
+		'public' => true, //it makes function visible or not in admin board 
 		'labels' => array(
 			'name' => 'Events',
 			'add_new_item' => 'Add New Event',
@@ -35,12 +35,30 @@ function university_post_types(){
 		'menu_icon' => 'dashicons-calendar'
 	));
 
+	//My Notes Post Type
+	register_post_type('note', array(
+		'capability_type' => 'note', //The function to register Events as 'event'. Its usefull in adding a new user type. 
+		'map_meta_cap' => true, //It requaires a capability to change the events
+		'show_in_rest' => true, // registers in REST API
+		'supports' => array('title', 'editor', 'author'),
+		'public' => false, //it makes function visible or not in admin board 
+		'show_ui' => true, //shows post type in admin board when public is false
+		'labels' => array(
+			'name' => 'Notes',
+			'add_new_item' => 'Add New Note',
+			'edit_item' => "Edit Note",
+			'all_items' => "All Notes",
+			'singular_name' => 'Note'
+		 ),
+		'menu_icon' => 'dashicons-welcome-write-blog'
+	));
+
 	//Program Post Type
 	register_post_type('program', array(
 		'supports' => array('title'),
 		'rewrite' => array('slug' => 'programs'),
 		'has_archive' => true, //it makes that when we will go to http://localhost:3000/event then we will see an archive of events
-		'public' => true, //it makes function visible in admin board 
+		'public' => true, //it makes function visible or not in admin board
 		'labels' => array(
 			'name' => 'Programs',
 			'add_new_item' => 'Add New Program',
@@ -53,9 +71,9 @@ function university_post_types(){
 
 	//Professor Post Type
 	register_post_type('professor', array(
-		'show_in_rest' => true,
+		'show_in_rest' => true, // registers in REST API
 		'supports' => array('title', 'editor', 'thumbnail'),
-		'public' => true, //it makes function visible in admin board 
+		'public' => true, //it makes function visible or not in admin board 
 		'labels' => array(
 			'name' => 'Professors',
 			'add_new_item' => 'Add New Professor',

@@ -1,8 +1,10 @@
 .link-list {
+
   li {
     padding: 1rem 0;
     font-size: 1.5rem;
     border-bottom: 1px dotted #DEDEDE;
+    list-style: none;
 
     .search-overlay & {
       font-size: 1.3rem;

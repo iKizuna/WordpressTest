@@ -272,6 +272,13 @@ textarea {
 }
 
 /**
+* Default padding need to be 0 to delete indention after removed bullets
+*/
+ul {
+  padding: 0;
+}
+
+/**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
@@ -2113,6 +2120,7 @@ margin: 20px 0;
     padding: 1rem 0;
     font-size: 1.5rem;
     border-bottom: 1px dotted #DEDEDE;
+    list-style: none;
   }
 
 .search-overlay .link-list li {
