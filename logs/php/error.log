@@ -614,3 +614,21 @@ Stack trace:
 [18-Mar-2019 15:25:07 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/mytheme/functions.php on line 122
 [18-Mar-2019 15:25:08 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/mytheme/functions.php on line 122
 [21-Mar-2019 11:54:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/mytheme/page-my-notes.php on line 4
+[28-Mar-2019 19:26:04 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/mytheme/single-professor.php on line 21
+[28-Mar-2019 19:32:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/mytheme/single-professor.php on line 31
+[31-Mar-2019 10:17:02 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-includes/update.php on line 160
+[31-Mar-2019 14:00:55 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/mytheme/inc/like-route.php on line 22
+[31-Mar-2019 15:28:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanatize_text_field() in /app/public/wp-content/themes/mytheme/inc/like-route.php:18
+Stack trace:
+#0 /app/public/wp-includes/rest-api/class-wp-rest-server.php(946): createLike(Object(WP_REST_Request))
+#1 /app/public/wp-includes/rest-api/class-wp-rest-server.php(329): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /app/public/wp-includes/rest-api.php(309): WP_REST_Server->serve_request('/website/v1/man...')
+#3 /app/public/wp-includes/class-wp-hook.php(286): rest_api_loaded(Object(WP))
+#4 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /app/public/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#6 /app/public/wp-includes/class-wp.php(387): do_action_ref_array('parse_request', Array)
+#7 /app/public/wp-includes/class-wp.php(737): WP->parse_request('')
+#8 /app/public/wp-includes/functions.php(1105): WP->main('')
+#9 /app/public/wp-blog-header.php(16): wp()
+#10 /app/public/index.php(17): require('/app/public/wp-...')
+#11 {ma in /app/public/wp-content/themes/mytheme/inc/like-route.php on line 18

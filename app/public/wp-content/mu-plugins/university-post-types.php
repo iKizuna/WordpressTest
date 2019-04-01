@@ -35,7 +35,22 @@ function university_post_types(){
 		'menu_icon' => 'dashicons-calendar'
 	));
 
-	//My Notes Post Type
+	//Like Post Type
+	register_post_type('like', array(
+		'supports' => array('title'),
+		'public' => false, //it makes function visible or not in admin board 
+		'show_ui' => true, //shows post type in admin board when public is false
+		'labels' => array(
+			'name' => 'Likes',
+			'add_new_item' => 'Add New Like',
+			'edit_item' => "Edit Like",
+			'all_items' => "All Likes",
+			'singular_name' => 'Like'
+		 ),
+		'menu_icon' => 'dashicons-heart'
+	));
+
+	//Note Post Type
 	register_post_type('note', array(
 		'capability_type' => 'note', //The function to register Events as 'event'. Its usefull in adding a new user type. 
 		'map_meta_cap' => true, //It requaires a capability to change the events

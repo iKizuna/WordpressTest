@@ -1,6 +1,7 @@
 <?php
 
 //Includes
+require get_theme_file_path('/inc/like-route.php'); //Custom REST API for likes
 require get_theme_file_path('/inc/search-route.php'); //Custom REST API for search
 
 //Function to create a new REST API record

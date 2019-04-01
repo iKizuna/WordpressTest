@@ -49,7 +49,7 @@ class Search {
 	//The function for getting and displaying results from searchField
 	//(Lesson 57 on Wordpress course)
 	getResults() {
-		$.getJSON(websiteRootURL.root_url + '/wp-json/university/v1/search?term=' + this.searchField.val(), (results) => {
+		$.getJSON(websiteRootURL.root_url + '/wp-json/website/v1/search?term=' + this.searchField.val(), (results) => {
 			this.resultsDiv.html(`
 				<div class="row">
 					<div class="one-third">
